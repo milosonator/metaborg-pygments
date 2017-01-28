@@ -8,6 +8,7 @@ lexers = [
     'sdf3     = metaborg.pygments.lexers.meta:SDF3Lexer',
     'stratego = metaborg.pygments.lexers.meta:StrategoLexer',
     'dynsem   = metaborg.pygments.lexers.meta:DynSemLexer',
+    'grace    = metaborg.pygments.lexers.meta:GraceLexer',
 ]
 
 meta_lexers = [
