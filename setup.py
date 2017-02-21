@@ -8,7 +8,8 @@ lexers = [
     'sdf3     = metaborg.pygments.lexers.meta:SDF3Lexer',
     'stratego = metaborg.pygments.lexers.meta:StrategoLexer',
     'dynsem   = metaborg.pygments.lexers.meta:DynSemLexer',
-    'grace    = metaborg.pygments.lexers.meta:GraceLexer',
+    'spt      = metaborg.pygments.lexers.meta:SPTLexer',
+    'grace    = metaborg.pygments.lexers:GraceLexer',
 ]
 
 meta_lexers = [
@@ -20,7 +21,7 @@ meta_lexers = [
 
 setup(
     name = "metaborg-pygments",
-    version = "0.1.dev",
+    version = "0.1.2-dev",
     packages = find_packages(),
     install_requires = ['Pygments>=2'],
     entry_points = {
